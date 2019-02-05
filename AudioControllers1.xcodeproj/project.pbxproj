@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A422CCC21AB9DB800E56D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CCB21AB9DB800E56D0C /* AppDelegate.swift */; };
-		2A422CCE21AB9DB800E56D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CCD21AB9DB800E56D0C /* ViewController.swift */; };
 		2A422CD121AB9DB800E56D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A422CCF21AB9DB800E56D0C /* Main.storyboard */; };
 		2A422CD421AB9DB800E56D0C /* AudioControllers1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CD221AB9DB800E56D0C /* AudioControllers1.xcdatamodeld */; };
 		2A422CD621AB9DD100E56D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A422CD521AB9DD100E56D0C /* Assets.xcassets */; };
 		2A422CD921AB9DD100E56D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A422CD721AB9DD100E56D0C /* LaunchScreen.storyboard */; };
 		2A422CE421AB9DD200E56D0C /* AudioControllers1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CE321AB9DD200E56D0C /* AudioControllers1Tests.swift */; };
 		2A422CEF21AB9DD200E56D0C /* AudioControllers1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CEE21AB9DD200E56D0C /* AudioControllers1UITests.swift */; };
+		2A422CFE21AB9E1900E56D0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CFC21AB9E1700E56D0C /* SecondViewController.swift */; };
+		2A422CFF21AB9E1900E56D0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422CFD21AB9E1800E56D0C /* FirstViewController.swift */; };
+		2A422D0621AB9EB200E56D0C /* Shape of You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A422D0221AB9EAC00E56D0C /* Shape of You.mp3 */; };
+		2A422D0721AB9EB200E56D0C /* LoveMeLikeYouDo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A422D0321AB9EAE00E56D0C /* LoveMeLikeYouDo.mp3 */; };
+		2A422D0821AB9EB200E56D0C /* Swalla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A422D0421AB9EB000E56D0C /* Swalla.mp3 */; };
+		2A422D0921AB9EB200E56D0C /* Despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A422D0521AB9EB200E56D0C /* Despacito.mp3 */; };
+		2A422D0B21ABA28700E56D0C /* TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A422D0A21ABA28700E56D0C /* TblCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* Begin PBXFileReference section */
 		2A422CC821AB9DB800E56D0C /* AudioControllers1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioControllers1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A422CCB21AB9DB800E56D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A422CCD21AB9DB800E56D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A422CD021AB9DB800E56D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A422CD321AB9DB800E56D0C /* AudioControllers1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioControllers1.xcdatamodel; sourceTree = "<group>"; };
 		2A422CD521AB9DD100E56D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		2A422CEA21AB9DD200E56D0C /* AudioControllers1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioControllers1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A422CEE21AB9DD200E56D0C /* AudioControllers1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioControllers1UITests.swift; sourceTree = "<group>"; };
 		2A422CF021AB9DD200E56D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A422CFC21AB9E1700E56D0C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2A422CFD21AB9E1800E56D0C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2A422D0221AB9EAC00E56D0C /* Shape of You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shape of You.mp3"; sourceTree = "<group>"; };
+		2A422D0321AB9EAE00E56D0C /* LoveMeLikeYouDo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LoveMeLikeYouDo.mp3; sourceTree = "<group>"; };
+		2A422D0421AB9EB000E56D0C /* Swalla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swalla.mp3; sourceTree = "<group>"; };
+		2A422D0521AB9EB200E56D0C /* Despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Despacito.mp3; sourceTree = "<group>"; };
+		2A422D0A21ABA28700E56D0C /* TblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				2A422CCB21AB9DB800E56D0C /* AppDelegate.swift */,
-				2A422CCD21AB9DB800E56D0C /* ViewController.swift */,
+				2A422CFD21AB9E1800E56D0C /* FirstViewController.swift */,
+				2A422CFC21AB9E1700E56D0C /* SecondViewController.swift */,
+				2A422D0A21ABA28700E56D0C /* TblCell.swift */,
 				2A422CCF21AB9DB800E56D0C /* Main.storyboard */,
 				2A422CD521AB9DD100E56D0C /* Assets.xcassets */,
 				2A422CD721AB9DD100E56D0C /* LaunchScreen.storyboard */,
 				2A422CDA21AB9DD100E56D0C /* Info.plist */,
 				2A422CD221AB9DB800E56D0C /* AudioControllers1.xcdatamodeld */,
+				2A422D0121AB9E7300E56D0C /* Song */,
 			);
 			path = AudioControllers1;
 			sourceTree = "<group>";
@@ -126,6 +141,17 @@
 				2A422CF021AB9DD200E56D0C /* Info.plist */,
 			);
 			path = AudioControllers1UITests;
+			sourceTree = "<group>";
+		};
+		2A422D0121AB9E7300E56D0C /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				2A422D0521AB9EB200E56D0C /* Despacito.mp3 */,
+				2A422D0321AB9EAE00E56D0C /* LoveMeLikeYouDo.mp3 */,
+				2A422D0221AB9EAC00E56D0C /* Shape of You.mp3 */,
+				2A422D0421AB9EB000E56D0C /* Swalla.mp3 */,
+			);
+			path = Song;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +258,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A422D0921AB9EB200E56D0C /* Despacito.mp3 in Resources */,
 				2A422CD921AB9DD100E56D0C /* LaunchScreen.storyboard in Resources */,
+				2A422D0621AB9EB200E56D0C /* Shape of You.mp3 in Resources */,
+				2A422D0821AB9EB200E56D0C /* Swalla.mp3 in Resources */,
 				2A422CD621AB9DD100E56D0C /* Assets.xcassets in Resources */,
 				2A422CD121AB9DB800E56D0C /* Main.storyboard in Resources */,
+				2A422D0721AB9EB200E56D0C /* LoveMeLikeYouDo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A422CCE21AB9DB800E56D0C /* ViewController.swift in Sources */,
+				2A422CFF21AB9E1900E56D0C /* FirstViewController.swift in Sources */,
+				2A422CFE21AB9E1900E56D0C /* SecondViewController.swift in Sources */,
 				2A422CCC21AB9DB800E56D0C /* AppDelegate.swift in Sources */,
+				2A422D0B21ABA28700E56D0C /* TblCell.swift in Sources */,
 				2A422CD421AB9DB800E56D0C /* AudioControllers1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
